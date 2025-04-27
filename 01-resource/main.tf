@@ -27,6 +27,7 @@ resource "azurerm_virtual_machine" "main" {
   os_profile {
     computer_name  = "test-vm"
     admin_username = "azuser"
+
     admin_password = "devops@12345"
   }
 }
