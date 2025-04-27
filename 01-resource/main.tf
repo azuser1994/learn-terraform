@@ -29,4 +29,7 @@ resource "azurerm_virtual_machine" "main" {
     admin_username = "azuser"
     admin_password = "devops@12345"
   }
+  os_profile_linux_config {
+    disable_password_authentication = false
+  }
 }
