@@ -9,7 +9,7 @@ resource "azurerm_virtual_machine" "main" {
   location              = "UK West"
   resource_group_name   = "project-setup-1"
   network_interface_ids = ["/subscriptions/344a5bc8-8e2d-4945-810b-881e275ec270/resourceGroups/project-setup-1/providers/Microsoft.Network/networkInterfaces/terraform-testing"]
-  vm_size               = "Standard_B2ls_v2"
+  vm_size               = "Standard_B2s"
 
   # Uncomment this line to delete the OS disk automatically when deleting the VM
   delete_os_disk_on_termination = true
