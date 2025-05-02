@@ -18,8 +18,8 @@ variable "mybool" {
   default = true
 }
 
-output "str"{
-  value = "$(var.str), steve"
+output "str" {
+  value = "$(var.str), Steve"
 }
 
 output "a" {
