@@ -23,7 +23,7 @@ output "str"{
 }
 
 output "a" {
-  default = "this is normal variable"
+  value = "this is normal variable"
 }
 
 variable "b" {
