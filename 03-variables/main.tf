@@ -63,7 +63,7 @@ output "command-line-variable"{
 
 ## variable from terraform.tfvars
 variable "v1" {}
-output "v1" {
+output "v1"  {
   value = var.v1
 }
 
